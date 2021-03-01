@@ -29,6 +29,15 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         String s = in.nextLine();
+        int sLenght = s.length();
+
+        if(sLenght % 2 == 0){
+            System.out.println("Messege proccessed......");
+        } else{
+            System.out.println("DUD");
+            System.exit(0);
+        }
+
 
         int char1row = -1;
         int char1col = -1;
@@ -97,10 +106,18 @@ public class Main {
 
     public static void runnerDe(){
 
-        System.out.println("Two letters you want to decrypt");
+       System.out.println("Two letters you want to encrypt");
         Scanner in = new Scanner(System.in);
 
         String s = in.nextLine();
+        int sLenght = s.length();
+
+        if(sLenght % 2 == 0){
+            System.out.println("Messege proccessed......");
+        } else{
+            System.out.println("DUD");
+            System.exit(0);
+        }
 
         int char1row = -1;
         int char1col = -1;
